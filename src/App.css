@@ -1,0 +1,969 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@500&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+body{
+font-family: Manrope;
+font-style: normal;
+background-color: #002853 !important;
+color: white;
+}
+.navbar-toggler {
+  color: white;
+background-color: white;
+}
+.nav-item a{
+  padding: 0px 30px !important;
+}
+/* ================NAVBAAR STYLING START HERE=================== */
+
+.navbar{
+padding-top: 40px;
+}
+.navbar-buttons{
+  float: right;
+}
+.navbar a{
+  color: #FFF;
+font-size: 18px;
+font-weight: 500;
+line-height: normal;
+padding-right: 44px;
+}
+.navbar-buttons button{
+  color: #FFF;
+font-size: 18px;
+font-weight: 500;
+line-height: normal;
+}
+.sign-up-button{
+  background-color: #FF4820;
+  border: none;
+  padding: 16px 45px;
+}
+.navbar-buttons .sign-in-button{
+  margin-right: 25px;
+  border: none;
+}
+/* ================NAVBAAR STYLING END HERE=================== */
+/* =================HEADER SECTION STYLING START HERE====================== */
+.header{
+  padding-top: 131px;
+}
+.header h1{
+background: linear-gradient(90deg, #AE67FA 0%, #F49867 97.40%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 58px;
+font-weight: 800;
+line-height: 75px;
+letter-spacing: -2.48px;
+margin-bottom: 0px;
+}
+.header p{
+  padding-top: 31px;
+  margin-bottom: 0px;
+  color: #81AFDD;
+font-size: 20px;
+font-weight: 400;
+line-height: normal;
+}
+.header .input-group{
+  margin-top: 30px;
+}
+.input-group-text{
+  background-color: #FF4820;
+  border: none;
+  padding: 20px 26px 26px 34px;
+  color: #FFF;
+font-size: 20px;
+font-weight: 700;
+line-height: normal;
+}
+.people-section{
+  display: flex;
+  margin-top: 34px;
+
+}
+.people-section {
+  width: 100%;
+}
+.people-section .people-img{
+  justify-content: center;
+  width: fit-content;
+}
+.people-section p{
+  padding-top: 0px !important;
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 500;
+  float: right;
+  line-height: 37.611px;
+  padding-left: 12px;
+}
+.header-img-section-tag{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+/* =================HEADER SECTION STYLING END HERE====================== */
+/* =================POSSIBILITY SECTION STYLING START HERE====================== */
+.bgrow{
+  background: #0F4279;
+  margin-top: 121px;
+}
+.possibility-main-heading1, .possibility-main-heading-pera{
+  padding: 51px 0px 0px 61px;
+}
+.heading-br{
+  background: linear-gradient(143deg, #AE67FA 0%, #F49867 97.40%), #FFF;
+  width: 38px;
+height: 3px;
+flex-shrink: 0;
+
+}
+.possibility-main-heading1 h1{
+  color: #FFF;
+font-size: 24px;
+font-weight: 800;
+line-height: 75px; /* 312.5% */
+letter-spacing: -0.96px;
+margin-bottom: 0px;
+margin-top: -15px;
+}
+.possibility-main-heading-pera p{
+  color: #81AFDD;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px; /* 187.5% */
+  margin-bottom: 0px;
+}
+.possibility-main-heading2, .possibility-main-heading2-button{
+  padding: 91px 0px 0px 52px;
+}
+.possibility-main-heading2 h1{
+  background: linear-gradient(90deg, #AE67FA 0%, #F49867 97.40%);
+  font-size: 37px;
+  font-weight: 800;
+  line-height: 45px; /* 132.353% */
+  background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-bottom: 0px;
+}
+.possibility-main-heading2-button button{
+  color: #FF8A71;
+font-size: 16px;
+font-weight: 500;
+line-height: 30px; /* 187.5% */
+}
+.chatbots-row{
+  padding:91px 67px 63px 57px ;
+}
+.possibility-main-heading3 h1{
+  color: #FFF;
+font-size: 24px;
+font-weight: 800;
+line-height: 75px; /* 312.5% */
+letter-spacing: -0.96px;
+margin-bottom: 0px;
+margin-top: -15px;
+
+}
+.possibility-main-heading3 p{
+  color: #81AFDD;
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 187.5% */
+margin-bottom: 0px;
+}
+/* =================POSSIBILITY SECTION STYLING END HERE====================== */
+/* ================FEATURE SECTION STYLING START HERE====================== */
+.feature-row{
+  padding: 201px 0px 40px 0px;
+}
+.feature-main-heading h1{
+color: #FFF;
+font-size: 42px;
+font-weight: 800;
+line-height: 45px; /* 132.353% */
+background: linear-gradient(90deg, #AE67FA 0%, #F49867 97.40%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-bottom: 0px;
+}
+.feature-main-heading p{
+  color: #FF8A71;
+font-size: 16px;
+font-weight: 500;
+line-height: 30px; /* 187.5% */
+padding-top: 31px;
+margin-bottom: 0px;
+}
+.improve-heading h3{
+  color: #FFF;
+font-size: 19px;
+font-weight: 800;
+line-height: 24px; /* 133.333% */
+letter-spacing: -0.72px;
+margin-bottom: 0px;
+}
+.improve-pera p{
+  color: #81AFDD;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px; /* 171.429% */
+margin-bottom: 0px;
+}
+/* ================FEATURE SECTION STYLING END HERE====================== */
+/* ================IMAGINATION SECTION STYLING START HERE====================== */
+.imagination-section{
+  margin-top: 60px;
+}
+.imagination-section-heading{
+  padding-top: 286px;
+}
+.imagination-section-heading h5{
+  color: #71E5FF;
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 187.5% */
+margin-bottom: 0px;
+}
+.imagination-section-heading h1{
+margin-bottom: 0px;
+padding-top: 10px;
+color: #FFF;
+font-size: 47px;
+font-weight: 800;
+line-height: 61px; /* 132.353% */
+background: linear-gradient(90deg, #AE67FA 0%, #F49867 97.40%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.imagination-section-heading p{
+  color: #81AFDD;
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+padding-top: 23px;
+margin-bottom: 0px;
+}
+.imagination-section-heading h4{
+  padding-top: 31px;
+  margin-bottom: 0px;
+  color: #FF8A71;
+font-size: 16px;
+font-weight: 500;
+line-height: 30px; /* 187.5% */
+}
+.imagination-button-row{
+  border-radius: 10.724px;
+border: 1px solid #000;
+background: linear-gradient(90deg, #AE67FA 0%, #F49867 97.40%);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+border: none;
+}
+.imagination-button-row{
+  margin-top: 154px;
+}
+.imagination-section-button-row-heading{
+  padding: 46px 0px 28px 46px;
+}
+.imagination-section-button-row-heading p{
+  color: #0E0E0E;
+font-size: 12px;
+font-weight: 500;
+line-height: 30px; /* 250% */
+margin-bottom: 0px;
+}
+.imagination-section-button-row-heading h2{
+  color: #000;
+font-size: 24px;
+font-weight: 800;
+line-height: 45px; /* 187.5% */
+margin-bottom: 0px;
+}
+.imagination-row-button-get-started{
+  padding: 57px 15px 53px 0px;
+}
+.imagination-row-button-get-started .get-started-button{
+  width: 100%;
+  border-radius: 40px;
+  /* padding: 12px 36px; */
+background: #000;
+  color: #FFF;
+font-size: 18px;
+font-weight: 700;
+line-height: 30px; /* 166.667% */
+}
+/* ================IMAGINATION SECTION STYLING END HERE====================== */
+/* ================HAPPENING SECTION STYLING START HERE====================== */
+.happening-main-heading{
+  margin-top: 154px;
+}
+.happening-main-heading h1{
+font-size: 62px;
+margin-bottom: 0px;
+font-weight: 800;
+line-height: 75px; /* 120.968% */
+letter-spacing: -2.48px;
+background: linear-gradient(90deg, #AE67FA 0%, #F49867 97.40%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.text-card1-img{
+  background: #0F4279;
+}
+.text-card1-img p{
+  padding: 32px 0px 0px 25px;
+  color: #FFF;
+font-size: 11.649px;
+font-weight: 700;
+line-height: 34.947px; /* 300% */
+margin-bottom: 0px;
+}
+.text-card1-img h3{
+  padding: 0px 49px 0px 25px;
+  color: #FFF;
+  font-size: 25.11px;
+  font-weight: 800;
+  line-height: 30.287px; /* 120.619% */
+margin-bottom: 0px;
+}
+.text-card1-img .btn{
+  border: none;
+  color: #FFF;
+font-size: 11.649px;
+font-weight: 700;
+line-height: 34.947px; /* 300% */
+padding: 187px 0px 26px 25px;
+}
+.card2 .btn{
+padding: 11px 0px 13px 0px !important;
+}
+.card2 h3{
+font-size: 19.315px !important;
+padding: 6px 0px 0px 0px !important;
+
+  }
+  .card2{
+    padding: 0px 17px 0px 25px !important;
+  }
+.card2 p{
+  padding: 6px 0px 0px 0px !important;
+}
+
+/* ================HAPPENING SECTION STYLING END HERE====================== */
+/* ================REQUEST SECTION STYLING START HERE====================== */
+.request-section{
+  background: #031B34;
+  margin-top: 151px;
+}
+.request-main-heading h1{
+  margin-bottom: 0px;
+font-size: 62px;
+font-weight: 800;
+line-height: 75px; /* 120.968% */
+letter-spacing: -2.48px;
+background: linear-gradient(90deg, #AE67FA 0%, #F49867 97.40%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+justify-content: center;
+text-align: center;
+padding: 175px 310px 86px 310px;
+}
+.request-main-heading button{
+  border: 1px solid #FFF;
+  color: #FFF;
+font-family: Gilroy-Medium;
+font-size: 18px;
+font-weight: 400;
+line-height: normal;
+padding: 22px 20px 21px 24px;
+}
+/* ================REQUEST SECTION STYLING END HERE====================== */
+/* ================FOOTER SECTION STYLING START HERE====================== */
+.footer-row{
+  padding-top: 180px;
+}
+.footer-logo h4{
+  /* padding: 25px 237px 226px 0px; */
+  padding-top: 25px;
+  color: #FFF;
+font-size: 12px;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 0px;
+}
+.footer-heading h6{
+  color: #FFF;
+font-size: 14px;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 36px;
+}
+.footer-heading ul li a{
+  color: #FFF;
+font-size: 12px;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+}
+.all-right-reserved-heading h1{
+  padding: 81px 0px 25px 0px;
+  color: #FFF;
+font-feature-settings: 'liga' off;
+font-size: 12px;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 0px;
+}
+
+/* ================FOOTER SECTION STYLING END HERE====================== */
+
+/* ================MEDIA QUERIES STATR HERE=================== */
+@media only screen and (min-width: 992px) and (max-width: 1024px){
+  .header {
+    padding-top: 60px;
+}
+  .header h1 {
+    font-size: 47px;
+    line-height: 50px;
+}
+.header p {
+  font-size: 16px;
+}
+.people-section p {
+  padding-top: 3px !important;
+  font-size: 10px;
+}
+.header-img-section-tag {
+  padding-top: 30px;
+}
+.input-group-text {
+  padding: 13px 15px;
+}
+.sign-up-button {
+  padding: 8px 33px;
+}
+.possibility-main-heading2, .possibility-main-heading2-button {
+  padding: 91px 0px 0px 34px;
+}
+.possibility-main-heading2 h1 {
+  font-size: 27px;
+  line-height: 31px;
+}
+.possibility-main-heading1{
+  margin-top: 40px !important;
+}
+.possibility-main-heading-pera p {
+  font-size: 14px;
+  line-height: 26px;
+}
+.imagination-section-heading {
+  padding-top: 116px;
+}
+.imagination-section-heading h1 {
+  font-size: 37px;
+  line-height: 46px;
+}
+.imagination-row-button-get-started {
+  padding: 57px 0px 53px 0px;
+}
+.imagination-section-button-row-heading h2 {
+  font-size: 20px;
+  line-height: 24px;
+}
+.imagination-row-button-get-started {
+  padding: 36px 0px 28px 0px;
+}
+.imagination-section-button-row-heading {
+  padding: 26px 0px 0px 46px;
+}
+.happening-main-heading {
+  margin-top: 96px;
+}
+.happening-main-heading h1 {
+  font-size: 44px;
+  font-weight: 600;
+}
+.text-card1-img .btn {
+  padding: 170px 0px 26px 25px;
+}
+.happening-main-heading h1 {
+  font-size: 49px;
+  line-height: 62px;
+}
+.card2 h3 {
+  font-size: 13.315px !important;
+}
+.text-card1-img h3 {
+  font-size: 18.11px;
+}
+.request-main-heading h1 {
+  padding: 175px 200px 86px 200px;
+}
+/* .nav-item a {
+  padding: 0px;
+} */
+.navbar a{
+  padding-right: 0px;
+}
+.nav-item a {
+  padding: 0px 17px !important;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+.header {
+  padding-top: 30px;
+}
+.header h1 {
+  font-size: 35px;
+    line-height: 39px;
+}
+.header p {
+font-size: 16px;
+}
+.input-group-text {
+  padding: 8px 15px 11px 15px;
+}
+.people-section p {
+padding-top: 3px !important;
+font-size: 10px;
+line-height: 18.611px;
+}
+.header-img-section-tag {
+padding-top: 30px;
+}
+.possibility-main-heading1{
+  margin-top: 40px !important;
+}
+.possibility-main-heading-pera p {
+  font-size: 14px;
+  line-height: 26px;
+}
+.possibility-main-heading2, .possibility-main-heading2-button {
+  padding: 91px 0px 0px 18px;
+}
+.possibility-main-heading2 h1 {
+  font-size: 34px;
+  line-height: 39px;
+}
+.possibility-main-heading3 p {
+    line-height: 23px;
+}
+.chatbots-row {
+  padding: 91px 35px 63px 27px;
+}
+.possibility-main-heading1{
+  padding: 51px 0px 0px 27px;
+}
+.feature-row {
+  padding: 99px 0px 40px 0px;
+}
+.imagination-section-heading {
+  padding-top: 70px;
+}
+.imagination-section-heading h1 {
+  font-size: 27px;
+  line-height: 33px;
+}
+.imagination-section-heading p {
+  line-height: 25px;
+}
+.imagination-section-heading h4 {
+  padding-top: 20px;
+}
+.imagination-section {
+  margin-top: 0px;
+}
+.imagination-section-button-row-heading {
+  padding: 20px 0px 0px 0px;
+}
+.imagination-section-button-row-heading h2 {
+  line-height: 30px;
+}
+.happening-main-heading h1 {
+  font-size: 50px;
+  line-height: 66px;
+}
+.card2 h3 {
+  font-size: 11.315px !important;
+}
+.text-card1-img h3 {
+  font-size: 18.11px;
+}
+.text-card1-img .btn {
+  padding: 133px 0px 26px 25px;
+  font-size: 8.649px;
+
+}
+.happening-main-heading {
+  margin-top: 84px;
+}
+.feature-main-heading h1 {
+  font-size: 37px;
+  line-height: 38px;
+}
+.improve-heading h3 {
+  font-size: 15px;
+}
+.improve-pera p {
+  font-size: 11px;
+  line-height: 19px;
+}
+.navbar {
+  text-align: center;
+}
+.navbar-buttons {
+float: none;
+}
+.navbar-buttons button {
+  width: 100%;
+}
+.request-main-heading h1 {
+  font-size: 59px;
+  padding: 85px 100px 86px 100px;
+}
+.nav-item a{
+  padding: 10px 30px !important;
+}
+}
+/* @media only screen and (min-width: 480px) and (max-width: 767px) {
+  .header {
+    padding-top: 30px;
+  }
+  .header h1 {
+    font-size: 35px;
+      line-height: 39px;
+  }
+  .header p {
+  font-size: 16px;
+  }
+  .input-group-text {
+    padding: 8px 15px 11px 15px;
+  }
+  .people-section p {
+  padding-top: 3px !important;
+  font-size: 10px;
+  line-height: 18.611px;
+  }
+  .header-img-section-tag {
+  padding-top: 30px;
+  }
+  .navbar {
+    text-align: center;
+  }
+  .navbar-buttons {
+  float: none;
+  }
+  .navbar-buttons button {
+    width: 100%;
+  }
+} */
+@media only screen and (min-width: 321px) and (max-width: 479px) {
+  .header {
+    padding-top: 30px;
+  }
+  .header h1 {
+    font-size: 35px;
+      line-height: 39px;
+  }
+  .header p {
+  font-size: 16px;
+  }
+  .input-group-text {
+    padding: 8px 15px 11px 15px;
+    font-size: 14px;
+  }
+  .people-section p {
+  padding-top: 3px !important;
+  font-size: 10px;
+  line-height: 18.611px;
+  }
+  .header-img-section-tag {
+  padding-top: 30px;
+  }
+  .bgrow {
+    margin-top: 60px;
+}
+.possibility-main-heading1, .possibility-main-heading-pera {
+  padding: 49px 0px 0px 0px;
+}
+.possibility-main-heading-pera {
+  padding: 0px;
+}
+.possibility-main-heading2, .possibility-main-heading2-button {
+  padding: 40px 0px 0px 0px;
+}
+.chatbots-row {
+  padding: 36px 35px 22px 55px;
+}
+.possibility-main-heading3 h1 {
+  margin-top: -24px;
+}
+.feature-row {
+  padding: 81px 0px 40px 0px;
+}
+.feature-main-heading h1 {
+  font-size: 30px;
+  line-height: 34px;
+}
+.feature-main-heading p {
+  margin-bottom: 20px;
+}
+.imagination-section-heading {
+  padding-top: 70px;
+}
+.imagination-section-heading h1 {
+  font-size: 27px;
+  line-height: 33px;
+}
+.imagination-section-heading p {
+  line-height: 25px;
+}
+.imagination-section-heading h4 {
+  padding-top: 20px;
+}
+.imagination-section {
+  margin-top: 0px;
+}
+.imagination-button-row {
+  margin: 20px;
+}
+.imagination-section-button-row-heading {
+  padding: 46px 0px 28px 31px;
+}
+.imagination-section-button-row-heading h2 {
+  font-size: 23px;
+  line-height: 22px;
+}
+.imagination-row-button-get-started {
+  padding: 0px 0px 53px 0px;
+}
+.happening-main-heading {
+  margin-top: 57px;
+}
+.happening-main-heading h1 {
+  font-size: 38px;
+  line-height: 52px;
+}
+.text-card1-img .btn {
+  padding: 59px 0px 26px 25px;
+}
+.card2 h3 {
+  font-size: 13.315px !important;
+  line-height: 14px;
+}
+.navbar {
+  text-align: center;
+}
+.navbar-buttons {
+float: none;
+}
+.navbar-buttons button {
+  width: 100%;
+}
+.request-main-heading h1 {
+  font-size: 43px;
+  line-height: 41px;
+  padding: 85px 15px;
+}
+.request-main-heading button {
+    font-size: 13px;
+}
+.footer-row {
+  padding-top: 45px;
+}
+.footer-logo{
+  margin-bottom: 35px;
+}
+.footer-heading li{
+  margin-top: 0px;
+}
+.footer-heading h6 {
+  margin-bottom: 11px;
+}
+.footer-heading ul li {
+  margin-top: 0px !important;
+}
+.footer-heading ul {
+  margin-top: 0px !important;
+}
+.nav-item a{
+  padding: 10px 30px !important;
+}
+}
+@media only screen and (max-width: 320px) {
+  .header {
+    padding-top: 30px;
+  }
+  .header h1 {
+    font-size: 32px;
+      line-height: 39px;
+  }
+  .header p {
+  font-size: 13px;
+  }
+  .input-group-text {
+    padding: 8px 15px 11px 15px;
+    font-size: 12px;
+  }
+  .people-section p {
+  padding-top: 3px !important;
+  font-size: 9px;
+  line-height: 10.611px;
+  }
+  .header-img-section-tag {
+  padding-top: 30px;
+  }
+  .form-control {
+    font-size: 12px;
+}
+.bgrow {
+  margin-top: 38px;
+}
+.possibility-main-heading1, .possibility-main-heading-pera {
+  padding: 51px 0px 0px 0px;
+}
+.possibility-main-heading-pera {
+  padding: 0px;
+}
+.possibility-main-heading2 {
+  padding: 48px 0px 0px 23px;
+}
+.possibility-main-heading2 h1 {
+  font-size: 28px;
+  line-height: 28px;
+}
+.possibility-main-heading2-button {
+  padding: 27px 0px 0px 52px;
+}
+.chatbots-row {
+  padding: 41px 33px 63px 33px;
+}
+.feature-row {
+  padding: 81px 0px 40px 0px;
+}
+.feature-main-heading h1 {
+  font-size: 30px;
+  line-height: 34px;
+}
+.feature-main-heading p {
+  margin-bottom: 20px;
+}
+.imagination-section-heading {
+  padding-top: 70px;
+}
+.imagination-section-heading h1 {
+  font-size: 24px;
+  line-height: 33px;
+}
+.imagination-section-heading p {
+  line-height: 25px;
+}
+.imagination-section-heading h4 {
+  padding-top: 20px;
+}
+.imagination-section {
+  margin-top: 0px;
+}
+.imagination-button-row {
+  margin: 20px;
+}
+.imagination-section-button-row-heading {
+  padding: 46px 0px 28px 31px;
+}
+.imagination-section-button-row-heading h2 {
+  font-size: 19px;
+  line-height: 18px;
+}
+.imagination-section-button-row-heading p {
+  font-size: 11px;
+}
+.imagination-row-button-get-started {
+  padding: 0px 0px 10px 0px;
+}
+.happening-main-heading {
+  margin-top: 59px;
+}
+.happening-main-heading h1 {
+  font-size: 32px;
+  line-height: 47px;
+}
+.text-card1-img p {
+  padding: 32px 0px 0px 9px;
+}
+.text-card1-img h3 {
+  padding: 0px 49px 0px 11px;
+}
+.text-card1-img .btn {
+    padding: 58px 0px 26px 12px;
+}
+.card2 {
+  padding: 0px 17px 0px 7px !important;
+}
+.card2 h3 {
+  line-height: 20px;
+  font-size: 12.315px !important;
+}
+.text-card1-img .btn {
+  font-size: 8.649px;
+}
+.text-card1-img p {
+  font-size: 8.649px;
+}
+.navbar {
+  text-align: center;
+}
+.navbar-buttons {
+float: none;
+}
+.navbar-buttons button {
+  width: 100%;
+}
+.request-section {
+  background: #031B34;
+  margin-top: 65px;
+}
+.request-main-heading h1 {
+  font-size: 39px;
+  line-height: 41px;
+  padding: 45px 15px;
+}
+.request-main-heading button {
+  font-size: 13px;
+}
+.footer-heading h6 {
+  margin-bottom: 0px !important;
+}
+.footer-heading ul li {
+  margin-top: 0px !important;
+}
+.footer-heading ul {
+  margin-top: 0px !important;
+}
+.footer-row {
+  padding-top: 70px;
+}
+.footer-logo h4 {
+  margin-bottom: 25px;
+}
+.all-right-reserved-heading h1 {
+  padding: 49px 0px 25px 0px;
+}
+.nav-item a{
+  padding: 10px 30px !important;
+}
+}
+/* ================MEDIA QUERIES END HERE=================== */
+
